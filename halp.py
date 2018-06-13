@@ -4,6 +4,11 @@ import pydoc
 import tokenize
 
 
+# thanks to Python-wizard Akuli for showing me how to abuse codecs :)
+# see his self-harming tutorial https://github.com/Akuli/import-that
+# if you like this
+
+
 class HelpEncodingIterator:
 
     def __init__(self, tokens):
